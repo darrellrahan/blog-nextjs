@@ -1,0 +1,39 @@
+.container {
+  max-width: 36rem;
+  margin: 3rem auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.header img {
+  border-radius: 100%;
+}
+
+.homeHeading {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.notHomeHeading {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.notHomeHeading:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: #0070f3;
+  font-size: 1.2rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
